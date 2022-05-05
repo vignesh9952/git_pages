@@ -1,24 +1,61 @@
-//import Laptop from "./laptop";
-import ClassComponentEg from "./component/classComponentEg";
+import React from "react";
+
 //import ToggleComponent from "./component/ToggleComponent";
-import TodoComponent from "./component/todocomponent";
+// import TodoComponent from "./component/Todocomponent";
+// import LifeCycleMethods from "./component/lifeCycleMethods";
+// import ToggleComponent from "./component/ToggleComponent";
+// import NewApp from "./component/NewApp";
+// import ReactAssign from "./component/ReactAssignment";
 
-/*const product={
-    pname:"XYZ",
-    plink:"https://www.amazon.in/deal/cca5e12b?smid=A14CZOWI0VEHLG&pf_rd_r=D74BC14B09MJGFHA9PGF&pf_rd_p=f690369a-7bb4-48bb-9349-f68a447ef06d&pd_rd_r=f1ca9aa0-48db-4db1-b5ba-8b28242713fc&pd_rd_w=ecFg7&pd_rd_wg=lr4U7&ref_=pd_gw_unk",
-    imglink:"https://m.media-amazon.com/images/I/61saGX0RILL._SX355_.jpg",
-    price:10000
-}*/
+// import GreekFunction from "./fuctional_components/greekFunction";
+// import Effects from "./fuctional_components/useeffectComponent";
+// import Parent from "./fuctional_components/parentComponent";
 
+const tododata = [
+  {
+    id: 1,
+    title: "AAA",
+    completed: false,
+    active: true,
+  },
+  {
+    id: 2,
+    title: "BBB",
+    completed: true,
+    active: true,
+  },
+  {
+    id: 3,
+    title: "CCC",
+    completed: false,
+    active: true,
+  },
+  {
+    id: 4,
+    title: "DDD",
+    completed: true,
+    active: true,
+  },
+  {
+    id: 5,
+    title: "EEE",
+    completed: false,
+    active: true,
+  },
+];
 
-function App(){
-    return(
-        <div>
-        <ClassComponentEg prop1 = "21.09.2000"></ClassComponentEg>
-       {// <ToggleComponent></ToggleComponent>
-}           <TodoComponent></TodoComponent> 
-            <pendingComponent></pendingComponent>
-        </div>
-    )
+function App() {
+  return (
+    <>
+      {/* <LifeCycleMethods props1={"hy"}></LifeCycleMethods> */}
+      {/* <TodoComponent props1={tododata}></TodoComponent> */}
+
+      {/* <GreekFunction></GreekFunction> */}
+      {/* <ReactAssign></ReactAssign> */}
+      {/* <Parent></Parent> */}
+
+      <Effects prop1={"vignesh"}></Effects>
+    </>
+  );
 }
 export default App;

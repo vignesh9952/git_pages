@@ -1,4 +1,4 @@
-import _isEqual from "lodash/isEqual";
+// import _isEqual from "lodash/isEqual";
 import React from "react";
 const PendingComponent = (props) => {
   //  shouldComponentUpdate(nextprops){

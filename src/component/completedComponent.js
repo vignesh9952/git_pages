@@ -1,8 +1,8 @@
 import React from "react";
 const CompletedComponent = (props) => {
-  console.log("this is completed");
   return (
     <div>
+      {console.log("this is completed")}
       <h1>completed</h1>
       {props.prop3.map((item) => (
         <div>

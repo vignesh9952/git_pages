@@ -1,7 +1,7 @@
 import React from "react";
 
 //import ToggleComponent from "./component/ToggleComponent";
-// import TodoComponent from "./component/Todocomponent";
+import TodoComponent from "./component/Todocomponent";
 // import LifeCycleMethods from "./component/lifeCycleMethods";
 // import ToggleComponent from "./component/ToggleComponent";
 // import NewApp from "./component/NewApp";
@@ -48,13 +48,13 @@ function App() {
   return (
     <>
       {/* <LifeCycleMethods props1={"hy"}></LifeCycleMethods> */}
-      {/* <TodoComponent props1={tododata}></TodoComponent> */}
+      <TodoComponent props1={tododata}></TodoComponent>
 
       {/* <GreekFunction></GreekFunction> */}
       {/* <ReactAssign></ReactAssign> */}
       {/* <Parent></Parent> */}
 
-      <Effects prop1={"vignesh"}></Effects>
+      {/* <Effects prop1={"vignesh"}></Effects> */}
     </>
   );
 }
